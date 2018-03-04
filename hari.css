@@ -1,0 +1,192 @@
+.flex-parent
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width:100%;
+}
+.profile-child{
+  background: #fff;
+  width: 40%;
+  padding: 2%;
+  height:100%;
+  margin: 2%;
+  box-shadow: 3px 3px 3px #000;
+
+}
+.content-child{
+  background: #fff;
+  width: 40%;
+  padding: 2%;
+  height:50%;
+  margin: 2%;
+  box-shadow: 3px 3px 3px #000;
+}
+.profile-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+body{
+  background-color: #ddd;
+border-radius: 5%;
+border: 1px solid #000;
+}
+
+.profile-circle{
+  border-radius: 50%;
+  border: 1px solid red;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.a{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+.b{
+  background: #fff;
+  width: 40%;
+  padding: 2%;
+  height:50%;
+  margin: 2%;
+  box-shadow: 3px 3px 3px #000;
+}
+.c{
+  background: #fff;
+  width: 40%;
+  padding: 2%;
+  height:50%;
+  margin: 2%;
+  box-shadow: 3px 3px 3px #000;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .flex-parent
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: green;
+
+  }
+  .profile-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    height:100%;
+    margin: 2%;
+    background-color: skyblue;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background:#fff;
+    width:100%;
+    padding:2%;
+    height:50%;
+    margin:2%;
+    background-color: cyan;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .flex-parent
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+flex-wrap: wrap;
+    background-color: green;
+  }
+  .profile-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    height:100%;
+    margin: 2%;
+    background-color: blue;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background:#fff;
+    width:100%;
+    padding:2%;
+    height:50%;
+    margin:2%;
+    background-color: yellow;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+  .flex-parent
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+flex-wrap: wrap;
+    background-color: black;
+  }
+  .profile-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    height:100%;
+    margin: 2%;
+    background-color: green;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background:#fff;
+    width:100%;
+    padding:2%;
+    height:50%;
+    margin:2%;
+    background-color: violet;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:0px) and (max-width:389px) {
+  .flex-parent
+  {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: orange;
+
+  }
+  .profile-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    height:100%;
+    margin: 2%;
+    background-color:skyblue;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background:#fff;
+    width:100%;
+    padding:2%;
+    height:50%;
+    margin:2%;
+    background-color:skyblue ;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+#img{
+  height: 100px;
+  width: :100px;
+}
+6
